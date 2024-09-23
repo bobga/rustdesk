@@ -122,7 +122,7 @@ dependency_overrides:
 flutter_icons:
   image_path: "../res/icon.png"
   remove_alpha_ios: true
-  android: true
+  android: "launcher_icon"
   ios: true
   windows:
     generate: true
