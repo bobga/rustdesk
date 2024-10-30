@@ -163,7 +163,7 @@ class InputService : AccessibilityService() {
             }
             val path = Path()
             path.moveTo(mouseX.toFloat(), mouseY.toFloat())
-            path.lineTo(mouseX.toFloat(), (mouseY - WHEEL_STEP).toFloat())
+        
             val stroke = GestureDescription.StrokeDescription(
                 path,
                 0,
@@ -182,7 +182,7 @@ class InputService : AccessibilityService() {
             }
             val path = Path()
             path.moveTo(mouseX.toFloat(), mouseY.toFloat())
-            path.lineTo(mouseX.toFloat(), (mouseY + WHEEL_STEP).toFloat())
+            
             val stroke = GestureDescription.StrokeDescription(
                 path,
                 0,
